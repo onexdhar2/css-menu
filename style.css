@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* nav bar start */
+nav{
+    background-color: blue;
+    width: 800px;
+    margin: auto;
+}
+/* nav bar finish */
+ul{
+    list-style: none;
+}
+nav ul li{
+    display:inline-block ;
+}
+
+a{
+    text-decoration: none;
+}
+nav ul li a{
+    color: antiquewhite;
+    display: inline-block;
+    padding: 30px 80px;
+    transition: 500ms;
+} 
+ 
+nav ul li:hover a{
+    background-color: red;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li a::after{
+    content:'';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
